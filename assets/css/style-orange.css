@@ -2002,13 +2002,7 @@ input::placeholder {
   -ms-flex-negative: 0;
       flex-shrink: 0;
 }
-.header-navigation-wrapper--style4 {
-  -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
-  padding-left: 35px;
-  border-left: 1px solid #eee;
-}
+
 .header-navigation-wrapper--style5 .header-navigation {
   -ms-flex-preferred-size: auto;
       flex-basis: auto;

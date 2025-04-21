@@ -89,10 +89,9 @@ background-color: #152036;
   background-color: rgb(0, 0, 0);
   position: relative;
   font-family: "Poppins", sans-serif !important;
-
-
 }
-*{
+
+* {
   font-family: "Poppins", sans-serif !important;
 }
 
@@ -405,7 +404,7 @@ https://templatemo.com/tm-557-grad-school
   }
 
   .hero-banner h2 {
-    color:#f7af05;
+    color:#ffc600;
 
     font-weight: 700;
   }
@@ -682,11 +681,11 @@ https://templatemo.com/tm-557-grad-school
   #tabs ul .ui-tabs-active {}
 
   #tabs ul .ui-tabs-active a {
-    color: #f5a425;
+    color: #ffc600;
   }
 
   #tabs ul .ui-tabs-active a:after {
-    background-color: #f5a425;
+    background-color: #ffc600;
     width: 15px;
     height: 15px;
   }
@@ -836,7 +835,7 @@ https://templatemo.com/tm-557-grad-school
     section.coming-soon .continer .counter span {
       font-size: 14px !important;
     }
-    
+
   }
 
   section.coming-soon .continer .counter .days,
@@ -1848,7 +1847,7 @@ https://templatemo.com/tm-557-grad-school
 
   .three-product-row {
     position: relative;
-    top: -250px;
+    top: -420px;
   }
 
   .name-text {
@@ -1860,6 +1859,7 @@ https://templatemo.com/tm-557-grad-school
 
   .name-text h5 {
     color: white !important;
+    font-weight: 500;
     font-size: 18px;
   }
 
@@ -1874,7 +1874,7 @@ https://templatemo.com/tm-557-grad-school
 
     .three-product-row {
       position: relative;
-      top:30px;
+      top:0px;
     }
 
     .hero-banner {
@@ -1952,7 +1952,7 @@ https://templatemo.com/tm-557-grad-school
     overflow: hidden;
     z-index: 1;
     color: #ffffff;
-    background-color:#f7af05;
+    background-color:#ffc600 !important;
     position: relative;
   }
 
@@ -1988,7 +1988,7 @@ https://templatemo.com/tm-557-grad-school
 
   .service-grid-area {
     background-color: #000;
-   
+
 
   }
 
@@ -2018,8 +2018,9 @@ https://templatemo.com/tm-557-grad-school
   .product-details h3 {
     text-align: center;
     margin-top: 20px;
-    font-size: 21px;
-  
+    font-size: 30px;
+    font-weight: 500;
+
   }
 
   @media only screen and (min-width: 1300px) {
@@ -2933,7 +2934,7 @@ https://templatemo.com/tm-557-grad-school
   }
 
   /* no gutters */
-  
+
 
   .g-0,
   .gx-0 {
@@ -3693,8 +3694,9 @@ https://templatemo.com/tm-557-grad-school
   .header-area.header-sticky.is-sticky .header-navigation {
     -ms-flex-preferred-size: calc(100% - 400px);
     flex-basis: calc(100% - 400px);
-    background-color: black !important;
+    background-color: rgb(0, 0, 0) !important;
     box-shadow: 0.4px 0.4px 1px white;
+
   }
 
   .header-area.header-sticky.is-sticky .header-search {
@@ -3706,12 +3708,18 @@ https://templatemo.com/tm-557-grad-school
     display: none;
   }
 
+  .header-area--transparent {
+    background-color: #0000008b !important;
+
+  }
+
   .header-area.header-sticky.is-sticky.header-area--transparent .header-top-area {
     display: none;
   }
 
   .header-area.header-sticky.is-sticky.header-area--transparent .header-navigation-area--transparent-bg {
-    background-color: #ffffff;
+    background-color: #000000;
+
   }
 
   .header-area.header-sticky.is-sticky.header-area--transparent .header-navigation__nav--transparent nav > ul > li > a {
@@ -3848,10 +3856,6 @@ https://templatemo.com/tm-557-grad-school
     .header-area__desktop--default .header-info-area {
       padding: 25px 0;
     }
-  }
-
-  .header-area__desktop .header-navigation-area--transparent-bg {
-    border-top: 1px solid rgba(238, 238, 238, 0.18);
   }
 
   .header-area__desktop .header-navigation-area--style2 {
@@ -4213,7 +4217,7 @@ https://templatemo.com/tm-557-grad-school
     -webkit-box-flex: 1;
     -ms-flex-positive: 1;
     flex-grow: 1;
-    padding-left: 35px;
+    padding-left: 150px;
   }
 
   .header-navigation-wrapper--style5 .header-navigation {
@@ -4350,8 +4354,8 @@ https://templatemo.com/tm-557-grad-school
     transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
     color:#ffffff;
     font-size: 18px !important;
-  text-transform: uppercase !important;
-  font-weight: 500;
+    text-transform: uppercase !important;
+    font-weight: 500;
 
   }
 
@@ -4705,8 +4709,11 @@ https://templatemo.com/tm-557-grad-school
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
+    background-color: transparent;
+
 
   }
+
 
   .header-navigation--header-default .header-navigation__nav {
     padding: 0;
@@ -5544,6 +5551,7 @@ https://templatemo.com/tm-557-grad-school
     background-color: #ffffff;
     -webkit-box-shadow: 0 10px 37px rgba(0, 0, 0, 0.07);
     box-shadow: 0 10px 37px rgba(0, 0, 0, 0.07);
+    border-radius: 20px;
   }
 
   .submenu li {
@@ -5696,9 +5704,9 @@ https://templatemo.com/tm-557-grad-school
 
   /* mobile menu */
   .mobile-menu-area {
-    padding: 20px 0;
+
     background-color:#000000;
-    box-shadow: 0.4px 0.4px 1px white;
+
   }
 
   .mobile-menu-content {
@@ -6999,7 +7007,7 @@ https://templatemo.com/tm-557-grad-school
   }
 
   .footer-widget__title {
-    color: #f7af05;
+    color: #ffc600;
     margin-bottom: 40px;
     font-size: 18px;
   }
@@ -7828,7 +7836,7 @@ https://templatemo.com/tm-557-grad-school
 
   .ht-btn--default {
     color: white;
-    background-color:#f7af05 !important;
+    background-color:#ffc600 !important;
     font-weight: 700;
   }
 
@@ -8095,7 +8103,7 @@ https://templatemo.com/tm-557-grad-school
     line-height: 50px;
     font-size: 19px;
     font-weight: 700;
-    text-transform: uppercase;
+
     letter-spacing: 0.5px;
     overflow: hidden;
     z-index: 1;
@@ -8672,12 +8680,12 @@ https://templatemo.com/tm-557-grad-school
   }
 
   .section-title-area .subtitle--style2 {
-   
+
     margin-bottom: 30px;
   }
 
   .section-title-area .subtitle--style3 {
-   
+
     font-weight: 700;
     color: #afafaf;
     margin-bottom: 0;
@@ -8687,7 +8695,7 @@ https://templatemo.com/tm-557-grad-school
   .section-title-area--style2 .subtitle {
     display: inline-block;
     overflow: hidden;
-    color: #f7af05;
+    color:#ffc600;
 
     margin-top: 20px;
 
@@ -8704,7 +8712,7 @@ https://templatemo.com/tm-557-grad-school
   }
 
   .section-title-area--style2 span {
-    color: #f7af05;
+    color: #ffc600;
   }
 
   /* .section-title-area--style2 .subtitle:before {
@@ -15646,7 +15654,6 @@ https://templatemo.com/tm-557-grad-school
     height :210px !important;
     width: 100% !important;
     background-color: black !important;
-    border-radius: 20px;
   }
 
   .project-grid-post__area {
@@ -21867,7 +21874,7 @@ https://templatemo.com/tm-557-grad-school
   }
 
   .product-info h4 {
-    color: #f7af05;
+    color: #ffc600 !important;
     font-size: 25px;
     font-weight: 600;
   }
@@ -21881,22 +21888,12 @@ https://templatemo.com/tm-557-grad-school
     text-align: justify !important;
   }
 
-  .product-info-img {
-    border: 4px solid #f7af05;
-    padding: 10px;
-    border-radius: 20px;
-  }
-
-  .product-info-img img {
-    border-radius: 20px;
-  }
-
   .product-info li {
     line-height: 30px;
     font-size: 18px;
     font-weight: 400;
     letter-spacing: 0.8px;
-    color: white!important;
+    color: white !important;
   }
 
   .sub-li span {
@@ -21913,7 +21910,7 @@ https://templatemo.com/tm-557-grad-school
     border-top: 1px solid gold !important;
     border-width: 50% !important;
     margin-top: 10px;
-    
+
   }
 
   ul {
@@ -22014,7 +22011,7 @@ https://templatemo.com/tm-557-grad-school
 
   .multilavel-anchortag {
     font-size: 19px !important;
-    color: black !important;
+    color: #f7af05 !important;
     font-weight: 500;
   }
 
@@ -22093,7 +22090,7 @@ https://templatemo.com/tm-557-grad-school
 
   .product-section h4 {
 
-    color: #f7af05 !important;
+    color: #ffc600 !important;
     font-size: 2.5rem !important;
   }
 
@@ -22137,22 +22134,23 @@ https://templatemo.com/tm-557-grad-school
     font-size: 19px;
     line-height: 30px;
     letter-spacing: 0.8px;
+    text-align: center;
   }
 
   @media (max-width:768px) {}
 
-  .cta-video-area {
-    position: relative;
-    top: -250px;
-
-  }
 
   @media (max-width:992px) {
 
     .cta-video-area {
-      position: relative;
-      top:0px;
 
+      position: relative;
+      top: 400px;
+
+    }
+
+    .cta-video-area {
+      margin-top: 0px;
     }
 
     .product-section {
@@ -22171,20 +22169,24 @@ https://templatemo.com/tm-557-grad-school
     .vission-section {
       margin-top: 0px;
     }
-    .why-choose-us-section{
-      margin-top: -100px !important;
+
+    .why-choose-us-section {
+      margin-top: 400px !important;
     }
   }
-  .vission-section{
+
+  .vission-section {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
   }
-  .vission-section img{
+
+  .vission-section img {
     height: 90px;
     width: 90px;
   }
+
 
   .padding-card {
     padding-bottom: 120px;
@@ -22219,19 +22221,19 @@ https://templatemo.com/tm-557-grad-school
     }
 
     .padding-card {
-      padding-bottom: 0px;
+      padding-bottom: 10px;
     }
 
     .process-padding-card {
-      padding-bottom: 0px;
+      padding-bottom: 10px !;
     }
 
     .digital-printing-card {
-      padding-bottom: 0px;
+      padding-bottom: 10px !;
     }
 
     .Screen-printing-card {
-      padding-bottom: 0px;
+      padding-bottom: 10px !;
     }
   }
 
@@ -22240,12 +22242,13 @@ https://templatemo.com/tm-557-grad-school
   }
 
   .section-title-area--style2 .subtitle {
-    border-bottom: 2px solid #f7af05;
+    border-bottom: 2px solid #ffc600;
+    font-size: 60px !important;
   }
-  
+
 
   .form-submit-btn {
-    background-color: #f7af05;
+    background-color: #ffc600;
     width: 100%;
     font-weight: 600;
   }
@@ -22254,8 +22257,10 @@ https://templatemo.com/tm-557-grad-school
     background-color: white !important;
   }
 
-  .form-section {
-    
+  .form-section {}
+
+  .cta-video-area {
+    margin-top: -400px !important;
   }
 
   .footer-icon-first-clm img {
@@ -22271,13 +22276,14 @@ https://templatemo.com/tm-557-grad-school
   .why-choose-us section {
     margin-top: 0px !important;
   }
-  .our-process-section{
+
+  .our-process-section {
     margin-top: -200px !important;
   }
 
   /* --------------------------------------------------------------------------------------------------------- */
   .why-section-card h4 {
-    color: #f7af05 !important;
+    color: #ffc600 !important;
     font-size: 21px;
     font-weight: 500;
   }
@@ -22299,22 +22305,28 @@ https://templatemo.com/tm-557-grad-school
   .card-number {
     width: 80px;
     height: 80px;
-    font-size: 30px;
-    font-weight: 700;
-   border-radius: 50%;
+
+
+    border-radius: 50%;
     border-left: 3px solid #f7af05;
     border-bottom: 1px solid #f7af05;
-    border-top: 2px  linear-gradient(to top,d7b600, f5cd00);
-    border-right: 3px  linear-gradient(to right,d7b600, f5cd00);
+    border-top: 2px linear-gradient(to top, d7b600, f5cd00);
+    border-right: 3px linear-gradient(to right, d7b600, f5cd00);
     padding: 17px;
-
-   
     display: flex;
     justify-content: center;
     align-items: center;
     position: absolute;
-    bottom: -10px;
+    bottom: -23px;
     left: -40px;
+    color:686D76 !important;
+
+  }
+
+  .card-number p {
+    font-size: 35px;
+    opacity: 0.2;
+    font-weight: 500;
   }
 
   .why-choose-us-card-01 {
@@ -22337,62 +22349,64 @@ https://templatemo.com/tm-557-grad-school
     .why-choose-us-card-01 {
       margin-bottom: 0px;
     }
-  
+
     .why-choose-us-card-02 {
       margin-top: 0px;
     }
-    
-  
+
+
     .why-choose-us-card-03 {
       margin-bottom: 0px;
     }
-  
+
     .why-choose-us-card-04 {
       margin-top: 0px !important;
     }
+
     .card-number {
       position: absolute;
       bottom: -25px;
-        left: -27px;
-        width: 80px;
-    height: 80px;
-    font-size: 30px;
-    font-weight: 700;
-   border-radius: 50%;
-    border-left: 3px solid #f7af05;
-    border-bottom: 1px solid #f7af05;
-    border-top: 2px  linear-gradient(to top,d7b600, f5cd00);
-    border-right: 3px  linear-gradient(to right,d7b600, f5cd00);
-    padding: 17px;
+      left: -27px;
+      width: 80px;
+      height: 80px;
+      font-size: 30px;
+      font-weight: 700;
+      border-radius: 50%;
+      border-left: 3px solid #f7af05;
+      border-bottom: 1px solid #f7af05;
+      border-top: 2px linear-gradient(to top, d7b600, f5cd00);
+      border-right: 3px linear-gradient(to right, d7b600, f5cd00);
+      padding: 17px;
 
-   
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
 
-  
-    .laser-cut-procrss{
+
+    .laser-cut-procrss {
       padding-bottom: 0px !important;
     }
 
   }
-  .why-choose-us-section{
-    margin-top: -300px;
+
+  .why-choose-us-section {
+    margin-top: 0px;
   }
-  .laser-cut-procrss{
+
+  .laser-cut-procrss {
     padding-bottom:30px !important;
   }
- 
-  
 
-  .big-heading h4{
-    font-size: 26px !important;
-  }
-  .vission-section h4{
+
+
+
+  .vission-section h4 {
     font-size: 30px !important;
   }
-  .three-vision-box{
+
+  .three-vision-box {
     padding: 10px;
     border-radius: 10px;
     border: 0.1px solid gray;
@@ -22400,10 +22414,11 @@ https://templatemo.com/tm-557-grad-school
     justify-content: center;
     align-items: center;
     flex-direction: column;
-   
-    
+
+
   }
-  .three-vision-box img{
+
+  .three-vision-box img {
     height: 100px;
     width: 100px;
 
@@ -22411,161 +22426,321 @@ https://templatemo.com/tm-557-grad-school
     padding: 20px;
     border-radius: 50%;
   }
-  .three-vision-box-2{
+
+  .three-vision-box-2 {
     padding-bottom: 160px;
   }
-  .sub-type img{
+
+  .sub-type img {
     border: 4px solid #f7af05 !important;
-    border-radius: 10px ;
+    border-radius: 10px;
     padding: 3px;
     height: 150px;
     width: 270px;
   }
-  .sub-type{
+
+  .sub-type {}
+
+  .middle-name h4 {
+    color:#ffc600;
+    font-size: 50px;
+    font-weight: 500;
+    letter-spacing: 0.8px;
   }
-  .middle-name h4{
-    color:#f7af05;
-    font-size: 28px ;
-  }
-  .middle-name{
+
+  .middle-name {
     display: flex;
     justify-content: center;
   }
-  @media  (max-width: 767px) {
 
-    .section-title-area--style2 .subtitle{
-      font-size: 30px !important;
+  @media (max-width: 767px) {
+
+    .section-title-area--style2 .subtitle {
+      font-size: 35px !important;
     }
-    .lets-tack{
+
+    .lets-tack {
       font-size: 38px !important;
     }
-    .vission-section h4{
+
+    .vission-section h4 {
       font-size: 30px !important;
     }
-    .about-vision-section-01{
+
+    .about-vision-section-01 {
       padding-bottom: 0px;
     }
-    .middle-name h4{
+
+    .middle-name h4 {
       color:#f7af05;
-      font-size: 20px !important;
+      font-size: 30px !important;
+      text-align: center;
     }
-    .three-vision-box-2{
+
+    .three-vision-box-2 {
       padding-bottom: 0px;
     }
 
   }
+
   @media (max-width: 500px) {
-    .hero-banner{
-        min-height: 70vh !important;
-        background-position: center !important;
+    .hero-banner {
+      min-height: 70vh !important;
+      background-position: center !important;
     }
 
 
-    
+
     .card-number {
-     position: absolute;
-     bottom: -25px;
-     width: 80px;
-    height: 80px;
-    font-size: 30px;
-    font-weight: 700;
-   border-radius: 50%;
-    border-left: 3px solid #f7af05;
-    border-bottom: 1px solid #f7af05;
-    border-top: 2px  linear-gradient(to top,d7b600, f5cd00);
-    border-right: 3px  linear-gradient(to right,d7b600, f5cd00);
-    padding: 17px; 
+      position: absolute;
+      bottom: -25px;
+      width: 80px;
+      height: 80px;
+      font-size: 30px;
+      font-weight: 700;
+      border-radius: 50%;
+      border-left: 3px solid #f7af05;
+      border-bottom: 1px solid #f7af05;
+      border-top: 2px linear-gradient(to top, d7b600, f5cd00);
+      border-right: 3px linear-gradient(to right, d7b600, f5cd00);
+      padding: 17px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      top: -81px;
+      left: -10px;
+    }
+
+    .why-section-card {
+      margin-top: 50px;
+    }
+  }
+
+  .form-control {
+    padding: 12px;
+  }
+
+  .about-big-heading h4 {
+    font-size: 26px !important;
+  }
+
+  .boots-section-row p {
+    font-size: 18px !important;
+    color: white !important;
+    line-height: 32px;
+  }
+
+  .clip-path-box {
+    height: 150px;
+    width: 150px;
+    clip-path: polygon(0% 15%, 15% 15%, 15% 0%, 85% 0%, 85% 15%, 100% 15%, 100% 85%, 85% 85%, 85% 100%, 15% 100%, 15% 85%, 0% 85%);
+  }
+
+  .about-vision-section {
+    background: #3a3a3a;
+    padding: 20px;
+    background-image: url(/assets/img/backgrounds/image\ \(2\).png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    border-bottom: 2px solid #f7af05;
+  }
+
+  .about-vision-section-01 {
+    padding-bottom: 100px;
+    background-image: url(/assets/img/backgrounds/image\ \(3\).png);
+    background-size: cover;
+    background-position: center;
     display: flex;
     justify-content: center;
-    align-items: center; 
-    top: -81px;
-    left: -10px;
+    align-items: center;
+    flex-direction: column;
   }
-  .why-section-card{
-    margin-top: 50px;
+
+  .about-vision-section-01 img {
+    height: 100px;
+    width: 100px;
+  }
+
+  .Product-01 {
+    padding-bottom: 32px !important;
+  }
+
+  .product-05 {
+    padding-bottom: 84px !important;
+  }
+
+  .product-06 {
+    padding-bottom: 45px !important;
+  }
+
+  .process-02 {
+    padding-bottom: 80px !important;
+  }
+
+  .procrss-03 {
+    padding-bottom: 110px !important;
+  }
+
+  .process-05 {
+    padding-bottom: 60px;
+  }
+
+  .anodized-card {
+    height:244px;
+    overflow-y: auto;
+  }
+
+  @media (max-width:500px) {
+    .Product-01 {
+      padding-bottom: 30px !important;
+    }
+
+    .product-05 {
+      padding-bottom: 20px !important;
+    }
+
+    .product-06 {
+      padding-bottom: 45px !important;
+    }
+
+    .process-02 {
+      padding-bottom: 30px !important;
+    }
+
+    .procrss-03 {
+      padding-bottom: 30px !important;
+    }
+
+    .process-05 {
+      padding-bottom: 30px;
+    }
+  }
+
+  .gallary-page img {
+    border-radius: 20px;
+  }
+
+  .case-study__single-gallery-image {
+    width: auto;
+    height: 250px;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .logo img {
+    max-height: 130px;
+    padding-left: 30px;
+  }
+
+  .prodct-row {
+    --bs-gutter-x: 3.2rem !important;
+  }
+
+  .section-one {
+    position: relative;
+    top: -180px;
+    z-index: -999;
+  }
+
+  @media (max-width :600px) {
+    .section-one {
+      position: static;
+
+    }
+  }
+
+  .one-stop-solution {
+    -webkit-animation: one-stop-solution 3s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+    animation: one-stop-solution 3s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+    animation-delay: 1s;
+  }
+
+  @-webkit-keyframes one-stop-solution {
+    0% {
+      -webkit-filter: blur(8px);
+      filter: blur(8px);
+      opacity: 0;
+    }
+
+    100% {
+      -webkit-filter: blur(0px);
+      filter: blur(0px);
+      opacity: 1;
+    }
+  }
+  .fade-heading {
+    animation-name: fadeText;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+  }
+  
+  @keyframes fadeText {
+    0% {
+      opacity: 0;
+    }
+  
+    50% {
+      opacity: 1;
+    }
+  
+    100% {
+      opacity: 0;
+    }
+  }
+  
+
+
+  /* 
+.fade-in-out {
+  -webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) infinite alternate;
+  animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) infinite alternate;
+}
+
+@-webkit-keyframes fade-in-out {
+  0% {
+    -webkit-filter: blur(12px);
+            filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 1;
   }
 }
 
-.form-control{
-  padding: 12px ;
+@keyframes fade-in-out {
+  0% {
+    -webkit-filter: blur(12px);
+            filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 1;
+  }
+} */
+.fade-in-out {
+  animation-name: popup;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
 }
-.about-big-heading h4{
-  font-size: 26px !important;
-}
-.boots-section-row p{
-  font-size: 18px !important;
-  color: white !important;
-  line-height: 32px ;
-}
-.clip-path-box{
-  height: 150px;
-  width: 150px;
-  clip-path: polygon(0% 15%, 15% 15%, 15% 0%, 85% 0%, 85% 15%, 100% 15%, 100% 85%, 85% 85%, 85% 100%, 15% 100%, 15% 85%, 0% 85%);
-}
-.about-vision-section{
-  background: #3a3a3a;
-  padding: 20px;
-  background-image: url(/assets/img/backgrounds/image\ \(2\).png);
-  background-size: cover;
-  background-position: center;
-  border-radius: 20px;
-  border-bottom: 2px solid #f7af05;
-}
-.about-vision-section-01{
-  padding-bottom: 100px;
-  background-image: url(/assets/img/backgrounds/image\ \(3\).png);
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-.about-vision-section-01 img{
-  height: 100px;
-  width: 100px;
-}
-.Product-01{
-  padding-bottom: 32px !important;
-}
-.product-05{
-  padding-bottom: 24px !important;
-}
-.product-06{
-  padding-bottom: 45px !important;
-}
-.process-02{
-  padding-bottom: 51px !important;
-}
-.procrss-03{
-  padding-bottom: 110px !important;
-}
-.process-05{
-  padding-bottom: 60px;
-}
+.main-name-product{
+  text-align: center !important;
 
-.anodized-card {
-  height:244px;
-  overflow-y: auto;
 }
-
-@media (max-width:500px) {
-  .Product-01{
-    padding-bottom: 0px !important;
-  }
-  .product-05{
-    padding-bottom: 0px !important;
-  }
-  .product-06{
-    padding-bottom: 0px !important;
-  }
-  .process-02{
-    padding-bottom: 0px !important;
-  }
-  .procrss-03{
-    padding-bottom: 0px !important;
-  }
-  .process-05{
-    padding-bottom: 0px;
-  }
+.main-name-product span{
+  color:  #f7af05 !important;
+  font-size: 30px;
+  font-weight: 500;
+  background-color: whitesmoke;
+  padding: 10px;
+  margin-bottom: 70px !important;
 }
