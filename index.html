@@ -81,6 +81,17 @@
             font-weight: 800;
             color: rgb(255, 187, 0);
         }
+        .fade-text {
+    animation: fadeInOut 4s linear infinite;
+  }
+
+  @keyframes fadeInOut {
+    0% { opacity: 0; }
+    25% { opacity: 1; }
+    75% { opacity: 1; }
+    100% { opacity: 0; }
+  }
+
     </style>
 </head>
 
@@ -125,26 +136,28 @@
                                                     <a href="#">Products</a>
                                                     <ul class="submenu">
                                                         <li><a href="SS-Name-Plates.html"
-                                                            class="multilavel-anchortag">Stainless Steel Name Plate
-                                                        </a></li>
+                                                                class="multilavel-anchortag">Stainless Steel Name Plate
+                                                            </a></li>
                                                         <li><a href="Aluminium-Name-Plates.html"
-                                                            class="multilavel-anchortag">Aluminium Name Plates
-                                                           
-                                                        </a></li>
+                                                                class="multilavel-anchortag">Aluminium Name Plates
+
+                                                            </a></li>
                                                         <li><a href="brass-nameplates.html"
                                                                 class="multilavel-anchortag">Brass Name Plates</a>
                                                         </li>
                                                         <li><a href="Electriacl-pannel.html"
-                                                            class="multilavel-anchortag">Electrical Panel Name Plates</a></li>
+                                                                class="multilavel-anchortag">Electrical Panel Name
+                                                                Plates</a></li>
 
-                                                        
+
                                                         <li><a href="Metal-Tag-Cable-Tag.html"
-                                                                class="multilavel-anchortag">Metal Tag's / Cable Tag's</a>
+                                                                class="multilavel-anchortag">Metal Tag's / Cable
+                                                                Tag's</a>
                                                         </li>
 
                                                         <li><a href="Metal-Barcode-Labels.html"
-                                                            class="multilavel-anchortag">Metal Barcode Labels</a>
-                                                    </li>
+                                                                class="multilavel-anchortag">Metal Barcode Labels</a>
+                                                        </li>
 
                                                     </ul>
                                                 </li>
@@ -212,9 +225,11 @@
         align-items: center;
     ">
             <div class="container">
-                <h6 class="text-white one-stop-solution" style="text-align: center; font-size: 40px; font-weight: 500;">
+                <h6 class="text-white  fade-text" id="myText"
+                    style="text-align: center; font-size: 40px; font-weight: 500; " class="fade-text">
                     ONE STOP SOLUTIONS FOR ALL TYPES OF</h6>
-                <h2 style="text-align: center; font-size: 37px; font-weight: 500;">INDUSTRIAL & COMMERCIAL METAL NAME
+                <h2 style="text-align: center; font-size: 37px; font-weight: 500;" class="fade-text">
+                    INDUSTRIAL & COMMERCIAL METAL NAME
                     PLATE'S & LABELS</h2>
             </div>
         </div>
@@ -961,26 +976,23 @@
                         <ul class="sub-menu nav-sub-menu-hr">
                             <li class="has-children">
 
-                                <li><a href="SS-Name-Plates.html"
-                                    class="multilavel-anchortag">Stainless Steel Name Plate
+                            <li><a href="SS-Name-Plates.html" class="multilavel-anchortag">Stainless Steel Name Plate
                                 </a></li>
-                                <li><a href="Aluminium-Name-Plates.html"
-                                    class="multilavel-anchortag">Aluminium Name Plates
-                                   
+                            <li><a href="Aluminium-Name-Plates.html" class="multilavel-anchortag">Aluminium Name Plates
+
                                 </a></li>
-                                <li><a href="brass-nameplates.html"
-                                        class="multilavel-anchortag">Brass Name Plates</a>
-                                </li>
-                                <li><a href="Electriacl-pannel.html"
-                                    class="multilavel-anchortag">Electrical Panel Name Plates</a></li>
+                            <li><a href="brass-nameplates.html" class="multilavel-anchortag">Brass Name Plates</a>
+                            </li>
+                            <li><a href="Electriacl-pannel.html" class="multilavel-anchortag">Electrical Panel Name
+                                    Plates</a></li>
 
-                                
-                                <li><a href="Metal-Tag-Cable-Tag.html"
-                                        class="multilavel-anchortag">Metal Tag's / Cable Tag's</a>
-                                </li>
 
-                                <li><a href="Metal-Barcode-Labels.html"
-                                    class="multilavel-anchortag">Metal Barcode Labels</a>
+                            <li><a href="Metal-Tag-Cable-Tag.html" class="multilavel-anchortag">Metal Tag's / Cable
+                                    Tag's</a>
+                            </li>
+
+                            <li><a href="Metal-Barcode-Labels.html" class="multilavel-anchortag">Metal Barcode
+                                    Labels</a>
                             </li>
 
                     </li>
@@ -1286,6 +1298,7 @@
                 }
             )(jQuery);
         });
+ 
     </script>
 
     <div class="fix-social-logo">
