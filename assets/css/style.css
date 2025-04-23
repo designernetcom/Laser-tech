@@ -22002,6 +22002,13 @@ https://templatemo.com/tm-557-grad-school
     color: black !important;
     font-weight: 500;
   }
+  @media (max-width: 1198px) {
+    .multilavel-anchortag {
+    
+      color: white !important;
+     
+    }
+  }
 
   .multilavel-anchortag :hover {
     color:red !important;
