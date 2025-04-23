@@ -3669,19 +3669,7 @@ https://templatemo.com/tm-557-grad-school
 =            Header            =
 =============================================*/
 
-  .header-area.header-sticky.is-sticky {
-    position: fixed;
-    z-index: 999;
-    top: 0;
-    left: 0;
-    width: 100%;
-    -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
-    transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
-    -webkit-animation: 0.95s ease-in-out 0s normal none 1 running fadeInDown;
-    animation: 0.95s ease-in-out 0s normal none 1 running fadeInDown;
-    -webkit-box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.1);
-    box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.1);
-  }
+
 
   .header-area.header-sticky.is-sticky .header-top-bar {
     display: none;
