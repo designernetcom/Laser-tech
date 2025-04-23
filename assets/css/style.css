@@ -1936,8 +1936,6 @@ https://templatemo.com/tm-557-grad-school
   }
 
   .product-image img {
-    height: 210px !important;
-    width: 100% !important;
     background-color: black !important;
   }
 
@@ -15638,11 +15636,7 @@ https://templatemo.com/tm-557-grad-school
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
   }
 
-  .product-image img {
-    height :210px !important;
-    width: 100% !important;
-    background-color: black !important;
-  }
+
 
   .project-grid-post__area {
     /* background-color: rgba(0, 0, 0, 0.664); */
@@ -22751,4 +22745,17 @@ https://templatemo.com/tm-557-grad-school
 }
 .barcods-ul{
   margin-bottom: 15px;
+}
+
+
+.carousel-item img{
+  height: 340px !important;
+  width: 340px !important;
+  margin-left: 15% !important;
+}
+@media (max-width:900px) {
+  .carousel-item img{
+   
+    margin-left: 0% !important;
+  }
 }
