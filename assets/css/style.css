@@ -22617,9 +22617,6 @@ https://templatemo.com/tm-557-grad-school
   }
 
   .case-study__single-gallery-image {
-    width: auto;
-    height: 250px;
-    border: 1px solid white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22743,11 +22740,15 @@ https://templatemo.com/tm-557-grad-school
   color: #f7af05 !important;
 }
 
-.carousel-inner img{
-  height: 300px;
-  width: 300px;
+
+.barcods-ul li{
+  font-size: 22px ;
+  font-weight: 600;
 }
-.gallery-section img{
-  width: 100%;
-  height: 100%;
+.barcods-ul li::before{
+ content: ">";
+ margin-right: 10px;
+}
+.barcods-ul{
+  margin-bottom: 15px;
 }
