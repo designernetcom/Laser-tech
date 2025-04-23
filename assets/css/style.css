@@ -21868,6 +21868,7 @@ https://templatemo.com/tm-557-grad-school
     letter-spacing: 0.8px;
     color: white !important;
     text-align: justify !important;
+    word-spacing: 0px !important;
   }
 
   .product-info li {
@@ -22756,6 +22757,6 @@ https://templatemo.com/tm-557-grad-school
 @media (max-width:900px) {
   .carousel-item img{
    
-    margin-left: 0% !important;
+    margin-left: 5% !important;
   }
 }
