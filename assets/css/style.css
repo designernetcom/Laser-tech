@@ -1937,6 +1937,8 @@ https://templatemo.com/tm-557-grad-school
 
   .product-image img {
     background-color: black !important;
+    height: 200px;
+    width: 100%;
   }
 
   .career-btn {
