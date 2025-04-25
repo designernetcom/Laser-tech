@@ -8688,8 +8688,7 @@ https://templatemo.com/tm-557-grad-school
     margin-top: 20px;
 
     padding-bottom: -10px;
-    -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
-    transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+   
   }
 
   .section-title-area--style2 p {
@@ -8739,8 +8738,7 @@ https://templatemo.com/tm-557-grad-school
     position: absolute;
     left: 0;
     bottom: 0;
-    -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
-    transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+    
   }
 
   .section-title-area--style2 .subtitle:hover:before {
@@ -22642,85 +22640,8 @@ https://templatemo.com/tm-557-grad-school
     }
   }
 
-  .one-stop-solution {
-    -webkit-animation: one-stop-solution 3s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
-    animation: one-stop-solution 3s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
-    animation-delay: 1s;
-  }
 
-  @-webkit-keyframes one-stop-solution {
-    0% {
-      -webkit-filter: blur(8px);
-      filter: blur(8px);
-      opacity: 0;
-    }
-
-    100% {
-      -webkit-filter: blur(0px);
-      filter: blur(0px);
-      opacity: 1;
-    }
-  }
-  .fade-heading {
-    animation-name: fadeText;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
-  }
   
-  @keyframes fadeText {
-    0% {
-      opacity: 0;
-    }
-  
-    50% {
-      opacity: 1;
-    }
-  
-    100% {
-      opacity: 0;
-    }
-  }
-  
-
-
-  /* 
-.fade-in-out {
-  -webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) infinite alternate;
-  animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) infinite alternate;
-}
-
-@-webkit-keyframes fade-in-out {
-  0% {
-    -webkit-filter: blur(12px);
-            filter: blur(12px);
-    opacity: 0;
-  }
-  100% {
-    -webkit-filter: blur(0px);
-            filter: blur(0px);
-    opacity: 1;
-  }
-}
-
-@keyframes fade-in-out {
-  0% {
-    -webkit-filter: blur(12px);
-            filter: blur(12px);
-    opacity: 0;
-  }
-  100% {
-    -webkit-filter: blur(0px);
-            filter: blur(0px);
-    opacity: 1;
-  }
-} */
-.fade-in-out {
-  animation-name: popup;
-  animation-duration: 2s;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
-}
 .main-name-product{
   text-align: center !important;
 
@@ -22761,4 +22682,16 @@ https://templatemo.com/tm-557-grad-school
    
     margin-left: 5% !important;
   }
+}
+
+
+.animate-heading {
+  opacity: 0;
+  transform: translateY(40px); /* a little more for more movement */
+  transition: opacity 1.2s ease-out, transform 1.2s ease-out; /* slower */
+}
+
+.animate-heading.in-view {
+  opacity: 1;
+  transform: translateY(0);
 }
