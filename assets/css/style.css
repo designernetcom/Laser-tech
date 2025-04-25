@@ -22688,7 +22688,7 @@ https://templatemo.com/tm-557-grad-school
 .animate-heading {
   opacity: 0;
   transform: translateY(40px); /* a little more for more movement */
-  transition: opacity 1.2s ease-out, transform 1.2s ease-out; /* slower */
+  transition: opacity 0.7s , transform 0.7s !important; /* slower */
 }
 
 .animate-heading.in-view {
