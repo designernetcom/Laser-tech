@@ -1717,3 +1717,51 @@
 
   /*=====  End of shipping form active  ======*/
 })(jQuery);
+
+
+
+// scrolling-animation
+// document.addEventListener("DOMContentLoaded", function () {
+//   const observer = new IntersectionObserver(
+//     (entries, observer) => {
+//       entries.forEach(entry => {
+//         if (entry.isIntersecting) {
+//           entry.target.classList.add("in-view");
+//           observer.unobserve(entry.target); // Animate once
+//         }
+//       });
+//     },
+//     { threshold: 0.40 } // Trigger when 10% of the element is visible
+//   );
+
+//   const headings = document.querySelectorAll(".animate-heading");
+//   headings.forEach(heading => observer.observe(heading));
+// });
+
+
+document.addEventListener("DOMContentLoaded", function () {
+  const headings = document.querySelectorAll(".animate-heading");
+
+  function checkVisibility() {
+    const windowHeight = window.innerHeight;
+
+    headings.forEach((heading) => {
+      const rect = heading.getBoundingClientRect();
+      const elementCenter = rect.top + rect.height / 2;
+
+      const middleTriggerZoneTop = windowHeight * 0.35;
+      const middleTriggerZoneBottom = windowHeight * 0.65;
+
+      if (
+        elementCenter >= middleTriggerZoneTop &&
+        elementCenter <= middleTriggerZoneBottom
+      ) {
+        heading.classList.add("in-view");
+      }
+    });
+  }
+
+  window.addEventListener("scroll", checkVisibility);
+  window.addEventListener("resize", checkVisibility);
+  checkVisibility(); // initial check
+});
