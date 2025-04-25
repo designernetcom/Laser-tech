@@ -1747,15 +1747,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
     headings.forEach((heading) => {
       const rect = heading.getBoundingClientRect();
-      const elementCenter = rect.top + rect.height / 2;
+      const elementTop = rect.top;
 
-      const middleTriggerZoneTop = windowHeight * 0.35;
-      const middleTriggerZoneBottom = windowHeight * 0.65;
+      const triggerPoint = windowHeight * 0.7; // 30% from top
 
-      if (
-        elementCenter >= middleTriggerZoneTop &&
-        elementCenter <= middleTriggerZoneBottom
-      ) {
+      if (elementTop <= triggerPoint && elementTop + rect.height >= 0) {
         heading.classList.add("in-view");
       }
     });
